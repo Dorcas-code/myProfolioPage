@@ -1,0 +1,249 @@
+* {
+  font-family: "Google Sans", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+header h1 {
+  color: #ffffff;
+}
+
+nav a {
+  color: #d7d7d7;
+  text-decoration: none;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header {
+  background-color: #18142b;
+  color: #ffffff;
+}
+
+img {
+  border-radius: 10px;
+  margin: 20px;
+  width: 50%;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+button.button1 {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+  margin-right: 10px;
+}
+
+button.button2 {
+  background-color: white;
+  color: blue;
+  border-color: blue;
+  margin-left: 10px;
+}
+
+p {
+  font-size: 12px;
+  color: #bcbcbc;
+}
+
+.feature {
+  display: block;
+  background-color: #f3f9fd;
+  padding: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 5px 5px 2px rgb(210, 210, 210);
+  padding: 10px;
+  margin: 10px;
+  max-width: 350px;
+}
+
+.percentage_section div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.number {
+  font-weight: 700;
+  color: rgb(4, 0, 255);
+}
+
+footer {
+  display: flex;
+  background-color: #1a1b29;
+  color: #ffffff;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  font-size: 12px;
+
+  flex-wrap: wrap;
+}
+
+.footer_logo {
+  color: blue;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+footer section {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Mobile Media Query */
+@media screen and (max-width: 768px) {
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .container {
+    background-color: #18142b;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 350px;
+  }
+  .card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .number {
+    font-size: 24px;
+  }
+  .caption {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}
+
+/* Tablet Media Query */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    background-color: #18142b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .number {
+    font-size: 24px;
+  }
+  .caption {
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+/* Desktop Media Query */
+@media screen and (min-width: 1025px) {
+  header h1 {
+    text-align: center;
+  }
+
+  header {
+    background-color: #18142b;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .container {
+    background-color: #18142b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .percentage_section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    align-items: center;
+    padding: 25px;
+  }
+
+  .number {
+    font-size: 30px;
+    padding: 25px;
+  }
+  .caption {
+    font-weight: 400;
+    font-size: 12px;
+  }
+}

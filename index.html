@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="My landing page!" />
+    <title>My landing page</title>
+    <link rel="stylesheet" href="./app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-regal-blue: #243c5a;
+        --color-light-purple: #ce9ffc;
+        --color-dark-purple: #7367f0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container flex p-4">
+      <h1 class="mb-1"><i class="fa-solid fa-laptop-code"></i>DORCAS</h1>
+      <nav>
+        <a href="#"> <i class="fa-regular fa-house"></i>Home</a>
+        <a href="#"> <i class="fa-solid fa-cubes-stacked"></i> Skills </a>
+        <a href="#"> <i class="fa-regular fa-user"></i> About</a>
+        <a href="#"> <i class="fa-regular fa-envelope"></i>Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero bg-linear-to-br from-regal-blue to-dark-purple">
+        <section class="slogan">
+          <h1 class="text-5xl font-extrabold text-white mb-4">
+            Welcome to My <br />
+            Digital Playground
+          </h1>
+
+          <p class="text-white mb-4">
+            I'm Dorcas , a passionate frontend developer who<br />
+            transforms ideas into interactive web experiences.
+          </p>
+
+          <div class="buttons mb-5">
+            <button
+              class="btn btn-primary bg-dark-purple text-white font-bold mr-2"
+            >
+              <i class="fa-solid fa-eye"></i> My Work
+            </button>
+
+            <button class="btn btn-primary bg-white font-bold text-regal-blue">
+              <i class="fa-solid fa-download"></i>My Resume
+            </button>
+          </div>
+        </section>
+        <div class="flex items-center">
+          <i class="fa-solid fa-code text-8xl text-white"></i>
+        </div>
+      </section>
+      <section class="feature">
+        <h2 class="text-3xl font-extrabold mb-2 mt-4">My Technical Aresenal</h2>
+        <p class="mb-4">Technologies and tools I use to bring Ideas to life</p>
+        <section class="card-section mb-4">
+          <div class="p-4 bg-white rounded-lg shadow-md p-6 mb-4 m-4">
+            <i class="text-6xl mb-1 text-dark-purple fa-brands fa-html5"></i>
+            <h3 class="text-2xl/7 font-medium mb-2">
+              Frontend <br />development
+            </h3>
+            <span class="text-sm font-medium text-regal-blue">
+              HTML5, CSS3, JavaScript<br />
+              ES6+, React, Vue.js,<br />TypeScript, Bootstrap, <br />Tailwind
+              CSS
+            </span>
+          </div>
+          <div class="p-4 bg-white rounded-lg shadow-md p-8 mb-4 m-4">
+            <i class="text-5xl mb-2 text-dark-purple fa-solid fa-database"></i>
+            <h3 class="text-2xl/7 font-medium mb-2">Database & <br />Cloud</h3>
+            <span class="text-sm font-medium text-regal-blue">
+              MySQL, Google Cloud,<br />
+              Docker, Git
+            </span>
+          </div>
+          <div class="p-4 bg-white rounded-lg shadow-md p-6 mb-4 m-4">
+            <i
+              class="text-5xl mb-3 text-dark-purple fa-solid fa-paintbrush"
+            ></i>
+            <h3 class="text-2xl/7 font-medium mb-2">Design & Tools</h3>
+            <span class="text-sm font-medium text-regal-blue">
+              Figma, Adobe XD, <br />Responsive Design,
+              <br />Accessibility,<br />
+              Performance<br />
+              Optimization
+            </span>
+          </div>
+        </section>
+      </section>
+      <section class="hero p-8 m-3 mb-7">
+        <section class="slogan">
+          <h1 class="text-3xl font-extrabold mb-2" style="text-align: center">
+            About Me
+          </h1>
+          <div class="text-base text-regal-blue mb-1">
+            Hi! I'm Dorcas, a developer with 3+ years of experience creating
+            digital solutions that make a differenc.
+          </div>
+          <div class="text-sm mt-2 mb-2">
+            My Journey began with a Web technology degree, but my real education
+            happened through countless hours of coding, debugging, and building
+            projects that solve real-world problems.
+          </div>
+        </section>
+
+        <div class="percentage_section">
+          <div>
+            <span class="number m-2">3+ </span><br /><span class="caption">
+              Experience</span
+            >
+          </div>
+
+          <div>
+            <span class="number m-2">98% </span><br /><span class="caption"
+              >Satisfaction</span
+            >
+          </div>
+          <div>
+            <span class="number m-2">25+ </span><br /><span class="caption"
+              >Projects Completed</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="p-4">
+      <section class="mb-2">
+        <h1><i class="fa-solid fa-laptop-code"></i>DORCAS</h1>
+        Began with a Web technology degree, debugging, and building projects
+        that solve real-world problems.
+      </section>
+      <section>
+        <b>Quick Links</b><br />
+        Home<br />
+        Skills<br />
+        About
+      </section>
+      <section>
+        <b>Contact</b><br />
+        Email: hello@abc.com<br />
+        Phone: (555) 123-4567
+      </section>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
