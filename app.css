@@ -117,6 +117,8 @@ footer section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    max-width: 100%;
   }
 
   .hero {
@@ -166,6 +168,8 @@ footer section {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
   }
 
   .hero {
